@@ -1,18 +1,18 @@
 {
   "required_api_version": "^2.0.0",
-  "name": "Demo",
-  "description": "Demo extension",
-  "developer_name": "Aleksandr Gornostal",
-  "icon": "images/icon.png",
+  "name": "ulauncher-fend",
+  "description": "run fend in ulauncher",
+  "developer_name": "altermo",
+  "icon": "images/icon.svg",
   "options": {
-    "query_debounce": 0.05
+    "query_debounce": 0.1
   },
   "preferences": [
     {
-      "id": "demo_kw",
+      "id": "kw",
       "type": "keyword",
-      "name": "Demo",
-      "default_value": "dm"
+      "name": "Fend",
+      "default_value": "="
     },
     {
       "id": "item_name",
@@ -20,13 +20,6 @@
       "name": "Item name",
       "description": "Name for each item",
       "default_value": "Item"
-    },
-    {
-      "id": "memo",
-      "type": "text",
-      "name": "Memo",
-      "description": "Write something here",
-      "default_value": ""
     }
   ]
 }
